@@ -1,35 +1,22 @@
 
 ## Getting Started
 
-Primeiro, inicie o ambiente de desenvolvimento:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Primeiro, instale as dependencias listadas abaixo, são necessarias para executar o projeto:
+Após realizar a instalação e inciar o projeto execute: npm run dev
 
 Abra [http://localhost:3000](http://localhost:3000) com seu navegador para visualizar a pagina.
-
--You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
--This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 ## Comandos e ferramentas utilizadas no Setup do projeto:
     (Next JS)
 1-> npx create-next-app@latest
         Coloque o nome do seu projeto: my-app
-        Marque sim para usar o TypeScript: No / Yes
-        Marque sim para usar o ESLint? No / Yes
-        Marque sim para usar o Tailwind CSS? No / Yes
-        Marque não para criar `src/` directory? No / Yes
-        Marque sim para usar App Router? (recommended) No / Yes
+        Marque sim para usar o TypeScript:  Yes
+        Marque sim para usar o ESLint?  Yes
+        Marque sim para usar o Tailwind CSS? Yes
+        Marque não para criar `src/` directory? No
+        Marque sim para usar App Router? (recommended) Yes
         Marque sim para usar `next dev`?  No / Yes
-        Marque não em import alias (`@/*` by default)? No / Yes
+        Marque não em import alias (`@/*` by default)? Yes
         >> What import alias would you like configured? @/* No
 
     (Prisma)
