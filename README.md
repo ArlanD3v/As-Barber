@@ -33,22 +33,22 @@ npx create-next-app@latest
 ```
 npm install prisma --save-dev
 ```
-Inicia o prista e informa que irá utilizar o postgresql como BD
+Inicia o prista e informa que irá utilizar o `postgresql` como BD
 ```
 npx prisma init --datasource-provider postgresql
 ```
-*Ele vai criar um arquivo .env onde tem o Database_URL, ai é so acessar o Neondb para pegar a URL
-*Para migrar o banco criado em ./prisma/schema.prisma execute:
+*Será criado um arquivo .env onde tem o `Database_URL`, acesse o `Neondb` para pegar a URL e copiar dentro do .env
+*Para migrar o banco criado em `./prisma/schema.prisma` execute:
 ```
 npx prisma migrate dev --name init_db
 ```
 * O comando acima vai criar uma migrations em modo de desenvolvimento
-* Dentro de package.json insira : abaixo de scripts
+* Dentro de `package.json` insira : abaixo de `scripts`
 ```
 "prisma": {
 "seed": "ts-node prisma/seed.ts" }
 ```
-* Tem um arquivo dentro de ./prisma chamado seed.ts que popula o banco de dados, para conseguir rodar ele é necessario instalar o `ts-node` com comando:
+* No arquivo dentro de ./prisma chamado `seed.ts` que popula o banco de dados, para conseguir rodar ele é necessario instalar o `ts-node` com comando:
 ```
 npm install -D ts-node
 ```
@@ -80,7 +80,7 @@ npx shadcn-ui@latest init
 O comando a cima cria as pastas ./lib e ./components  (caso ele não crie a componets, ele cria quando você instalar algum componente disponibilizado no site do shadcn)
 em components.json você configura o caminho
 
-## 🛠️Após realizar a instalação e inciar o projeto execute:
+## 🛠️Após instalar todas as dependencias, execute o comando abaixo para inciar:
 ```
 npm run dev
 ``` 
@@ -88,5 +88,3 @@ npm run dev
 
 * **Arlan** - *Desenvolvimento* - [ArlanD3v](https://github.com/ArlanD3v/)
 * **Felipe Rocha** - *Mentor* - [Felipe](https://github.com/felipemotarocha)
-
-
