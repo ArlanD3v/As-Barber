@@ -1,14 +1,11 @@
 <h1 align="center">AS Barber</h1>
 
-## :computer: Funcionalidades
+<h3 align="center"> :computer: Funcionalidades </h3>
 Projeto inspirado no FSW com intuito da criação de um APP para barbearias, onde o cliente poderar realizar agendamentos pelo celular ou computador.
 
 ### 🔧 Instalação e configuração
 
-Primeiro, instale as dependencias listadas abaixo, pois são necessarias para executar o projeto:
-Após realizar a instalação e inciar o projeto execute: npm run dev
-
-Abra [http://localhost:3000](http://localhost:3000) com seu navegador para visualizar a pagina.
+# Primeiro, instale as dependencias listadas abaixo, pois são necessarias para executar o projeto:
 
 ## Comandos e ferramentas utilizadas no Setup do projeto:
 
@@ -83,7 +80,8 @@ em components.json você configura o caminho
 ## 🛠️Após instalar todas as dependencias, execute o comando abaixo para inciar:
 ```
 npm run dev
-``` 
+```
+Abra [http://localhost:3000](http://localhost:3000) com seu navegador para visualizar a pagina.
 ## ✒️ Autores
 
 * **Arlan** - *Desenvolvimento* - [ArlanD3v](https://github.com/ArlanD3v/)
