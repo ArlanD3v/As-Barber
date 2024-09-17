@@ -12,9 +12,9 @@ Abra [http://localhost:3000](http://localhost:3000) com seu navegador para visua
 
 ## Comandos e ferramentas utilizadas no Setup do projeto:
 
-##(Next JS)
+## Next JS
 
-**Para realizar a instalação do NextJS, execute:
+** Para realizar a instalação do NextJS, execute:
 ```
 npx create-next-app@latest
 ```
@@ -28,8 +28,8 @@ npx create-next-app@latest
 *Marque não em import alias (`@/*` by default)? Yes
 *>> What import alias would you like configured? @/* No
 
-##(Prisma)
-**Para realizar a instalação do Prisma, execute:
+## Prisma
+** Para realizar a instalação do Prisma, execute:
 ```
 npm install prisma --save-dev
 ```
@@ -42,13 +42,13 @@ npx prisma init --datasource-provider postgresql
 ```
 npx prisma migrate dev --name init_db
 ```
-*O comando acima vai criar uma migrations em modo de desenvolvimento
-*Dentro de package.json insira : abaixo de scripts
+* O comando acima vai criar uma migrations em modo de desenvolvimento
+* Dentro de package.json insira : abaixo de scripts
 ```
 "prisma": {
 "seed": "ts-node prisma/seed.ts" }
 ```
-*Tem um arquivo dentro de ./prisma chamado seed.ts que preenche o banco de dados, para conseguir rodar ele é necessario instalar o ts-node com comando:
+* Tem um arquivo dentro de ./prisma chamado seed.ts que preenche o banco de dados, para conseguir rodar ele é necessario instalar o ts-node com comando:
 ```
 npm install -D ts-node
 ```
@@ -59,12 +59,12 @@ npx prisma db seed
 (Esse comando executa o Script dentro de Seed.ts)
 
     (Prettier para Tailwindcss)
-##Prettier
+## Prettier
 ```
 npm install -D prettier prettier-plugin-tailwindcss
 ```
 Após a instalação :
-*Crie na pasta raiz um arquivo chamado .prettierrc.json e insira :
+* Crie na pasta raiz um arquivo chamado .prettierrc.json e insira :
 ```
 {
 "plugins": [
@@ -74,14 +74,14 @@ Após a instalação :
 "semi": false
 }
 ```
-##Shadcn.ui
+## Shadcn.ui
 ```
 npx shadcn-ui@latest init
 ```
 O comando a cima cria as pastas ./lib e ./components  (caso ele não crie a componets, ele cria quando você instalar algum componente disponibilizado no site do shadcn)
 em components.json você configura o caminho
 
-##🛠️Após realizar a instalação e inciar o projeto execute:
+## 🛠️Após realizar a instalação e inciar o projeto execute:
 ```
 npm run dev
 ``` 
