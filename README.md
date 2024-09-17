@@ -14,19 +14,19 @@ Abra [http://localhost:3000](http://localhost:3000) com seu navegador para visua
 
 ## Next JS
 
-** Para realizar a instalação do NextJS, execute:
+Para realizar a instalação do NextJS, execute:
 ```
 npx create-next-app@latest
 ```
-*Coloque o nome do seu projeto: my-app
-*Marque sim para usar o TypeScript:  Yes
-*Marque sim para usar o ESLint?  Yes
-*Marque sim para usar o Tailwind CSS? Yes
-*Marque não para criar `src/` directory? No
-*Marque sim para usar App Router? (recommended) Yes
-*Marque sim para usar `next dev`?  No / Yes
-*Marque não em import alias (`@/*` by default)? Yes
-*>> What import alias would you like configured? @/* No
+* Coloque o nome do seu projeto: `nomeprojeto`
+* Marque sim para usar o TypeScript:  Yes
+* Marque sim para usar o ESLint?  Yes
+* Marque sim para usar o Tailwind CSS? Yes
+* Marque não para criar `src/` directory? No
+* Marque sim para usar App Router? (recommended) Yes
+* Marque sim para usar `next dev`?  No / Yes
+* Marque não em import alias (`@/*` by default)? Yes
+* >> What import alias would you like configured? @/* No
 
 ## Prisma
 ** Para realizar a instalação do Prisma, execute:
