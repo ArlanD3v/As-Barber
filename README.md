@@ -48,7 +48,7 @@ npx prisma migrate dev --name init_db
 "prisma": {
 "seed": "ts-node prisma/seed.ts" }
 ```
-* Tem um arquivo dentro de ./prisma chamado seed.ts que preenche o banco de dados, para conseguir rodar ele é necessario instalar o ts-node com comando:
+* Tem um arquivo dentro de ./prisma chamado seed.ts que popula o banco de dados, para conseguir rodar ele é necessario instalar o `ts-node` com comando:
 ```
 npm install -D ts-node
 ```
@@ -56,9 +56,8 @@ Depois execute:
 ```
 npx prisma db seed
 ```
-(Esse comando executa o Script dentro de Seed.ts)
+(O comando acima executa o Script dentro de Seed.ts)
 
-    (Prettier para Tailwindcss)
 ## Prettier
 ```
 npm install -D prettier prettier-plugin-tailwindcss
